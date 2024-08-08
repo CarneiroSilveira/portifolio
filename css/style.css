@@ -31,6 +31,11 @@ section {
     padding: 2em;
 }
 
+
+.last-section {
+    margin-bottom: 65px;
+}
+
 .project {
     border: 1px solid #ddd;
     padding: 1em;
@@ -38,7 +43,6 @@ section {
 }
 
 footer {
-    margin-top: 1em;
     background: #333;
     color: white;
     text-align: center;
@@ -82,4 +86,20 @@ form button {
     position: absolute;
     bottom: 0;
     width: 100%;
-  }
+}
+
+a:link, a:visited {
+	text-decoration: none
+}
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+a:active {
+	text-decoration: none
+}
+svg {
+    margin-top: 5px;
+    height: 14px;
+    width: 14px;
+}
